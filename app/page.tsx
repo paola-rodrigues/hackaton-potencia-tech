@@ -170,10 +170,16 @@ export default function Home() {
           </div>
           <div id='right-footer' className='flex flex-col items-center justify-center'>
             <div className='flex gap-[3rem]'>
-              <p>+55 21 90909-9090</p>
-              <p>contato@digitech.com</p>
+              <div className='flex items-center gap-2'>
+                <TfiMobile className=''/>
+                <p>+55 21 90909-9090</p>
+              </div>
+              <div className='flex items-center gap-2'>
+                <TfiEmail/>
+                <p>contato@digitech.com</p>
+              </div>
             </div>
-            <div>
+            <div className='pt-2'>
               <p className='text-[#AF2B36] text-[1.5rem]'>Siga a gente!</p>
             </div>
             <div className='flex gap-[1rem]'>
@@ -185,6 +191,13 @@ export default function Home() {
           </div>
         </div>
         {/* end of top footer */}
+
+        <div id='bottom-footer' className='bg-[black] text-white flex justify-center text-center'>
+          <div>
+            <p className='text-[.9rem]'>Política de Privacidade & Cookies</p>
+            <p className='text-[gray] text-[.9rem]'>© 2023 - Todos os direitos reservados.</p>
+          </div>
+        </div>
 
       </div>
     </main>
