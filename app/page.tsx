@@ -118,6 +118,54 @@ export default function Home() {
         </div>
         {/* end of third part */}
 
+        <div id='fourth-part' className='bg-[#f0eeee] pb-[2rem]'>
+          <div id='top-fourth' className='p-10 leading-[2rem]'>
+            <p className='text-[#AF2B36] uppercase text-[2.5rem] tracking-[.2rem]'>Depoimentos</p>
+            <p className='text-[1.5rem] font-[300]'>Veja o que dizem!</p>
+          </div>
+          <div id='cards-fourth' className='flex gap-[3rem] justify-around'>
+            <div className='flex flex-col w-[30rem] h-[30rem] bg-[#AF2B36] text-[white] justify-center items-center text-center rounded-[20px]'>
+              <div className='flex items-center gap-2 mb-[2rem]'>
+                <div className='w-[50px] h-[50px] bg-[gray] rounded-full'></div>
+                <p className='text-[1.5rem] font-bold'>Ana Luiza - Aluna UX Design</p>
+              </div>
+              <p className='w-[80%] text-[1.5rem]'>“ A plataforma é muito boa, tem vários cursos para você se capacitar. Mas o que eu mais amei foram as mentorias, pude acompanhar profissionais no seu dia-a-dia de trabalho e ver de perto como é a profissão que eu escolhi para exercer.</p>
+            </div>
+            <div className='flex flex-col w-[30rem] h-[30rem] bg-[#AF2B36] text-[white] justify-center items-center text-center rounded-[20px]'>
+              <div className='flex items-center gap-2 mb-[2rem]'>
+                <div className='w-[50px] h-[50px] bg-[gray] rounded-full'></div>
+                <p className='text-[1.5rem] font-bold'>Ana Luiza - Aluna UX Design</p>
+              </div>
+              <p className='w-[80%] text-[1.5rem]'>“ A plataforma é muito boa, tem vários cursos para você se capacitar. Mas o que eu mais amei foram as mentorias, pude acompanhar profissionais no seu dia-a-dia de trabalho e ver de perto como é a profissão que eu escolhi para exercer.</p>
+            </div>
+            <div className='flex flex-col w-[30rem] h-[30rem] bg-[#AF2B36] text-[white] justify-center items-center text-center rounded-[20px]'>
+              <div className='flex items-center gap-2 mb-[2rem]'>
+                <div className='w-[50px] h-[50px] bg-[gray] rounded-full'></div>
+                <p className='text-[1.5rem] font-bold'>Ana Luiza - Aluna UX Design</p>
+              </div>
+              <p className='w-[80%] text-[1.5rem]'>“ A plataforma é muito boa, tem vários cursos para você se capacitar. Mas o que eu mais amei foram as mentorias, pude acompanhar profissionais no seu dia-a-dia de trabalho e ver de perto como é a profissão que eu escolhi para exercer.</p>
+            </div>
+          </div>
+        </div>
+        {/* end of fourth part */}
+
+        <div id='fifth-part' className='pb-[2rem] bg-[#f0eeee]'>
+          <div className='h-[1px] bg-[#AF2B36] w-[80%] m-auto'></div>
+          <div className='flex items-center ml-[2rem]'>
+            <p className='text-[3rem] font-bold mr-[1rem]'>Parceiros:</p>
+            <div className='flex gap-10 items-center justify-center m-[1rem]'>
+              <Image src="/ifood.png" width={150} height={150} alt='ifood-parceiro'/>
+              <Image src="/ifood.png" width={150} height={150} alt='ifood-parceiro'/>
+              <Image src="/ifood.png" width={150} height={150} alt='ifood-parceiro'/>
+            </div>
+          </div>
+        </div>
+        {/* end of fifth part */}
+
+        <div id='footer'>
+          
+        </div>
+
       </div>
     </main>
   )
