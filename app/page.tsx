@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { TfiLocationPin, TfiMobile, TfiEmail } from 'react-icons/tfi'
+import { TfiLocationPin, TfiMobile, TfiEmail, TfiLinkedin, TfiFacebook, TfiInstagram, TfiYoutube } from 'react-icons/tfi'
 
 export default function Home() {
   return (
@@ -162,9 +162,29 @@ export default function Home() {
         </div>
         {/* end of fifth part */}
 
-        <div id='footer'>
-          
+        <div id='footer' className='pb-[2rem] pt-[2rem] pl-[2rem] bg-[black] text-white grid grid-cols-2'>
+          <div id='left-footer'>
+            <p className='mb-[1rem]'>Receba nossa newsletter</p>
+            <input type='email' className='h-[5rem] w-[30rem] pl-[1.5rem]' placeholder='Seu e-mail'/>
+            <button className='h-[5rem] text-center bg-[black] border-[2px] border-[#AF2B36] text-[#AF2B36] font-semibold pt-0 pb-0 ml-[1rem] p-[3rem]'>Cadastrar</button>
+          </div>
+          <div id='right-footer' className='flex flex-col items-center justify-center'>
+            <div className='flex gap-[3rem]'>
+              <p>+55 21 90909-9090</p>
+              <p>contato@digitech.com</p>
+            </div>
+            <div>
+              <p className='text-[#AF2B36] text-[1.5rem]'>Siga a gente!</p>
+            </div>
+            <div className='flex gap-[1rem]'>
+              <TfiInstagram className='text-[1.5rem]'/>
+              <TfiFacebook className='text-[1.5rem]'/>
+              <TfiLinkedin className='text-[1.5rem]'/>
+              <TfiYoutube className='text-[1.5rem]'/>
+            </div>
+          </div>
         </div>
+        {/* end of top footer */}
 
       </div>
     </main>
