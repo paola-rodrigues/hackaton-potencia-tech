@@ -4,9 +4,9 @@ import { TfiLocationPin, TfiMobile, TfiEmail } from 'react-icons/tfi'
 export default function Home() {
   return (
     <main className="">
-      <div id='main-div' className='bg-[#B1D5E5] h-screen'>
+      <div id='main-div' className='bg-[#B1D5E5]'>
 
-        <div id='fist-part'>
+        <div id='fist-part' className='bg-[#B1D5E5]'>
           <div id='header-div'>
             <div id='top-header' className='flex w-full h-[40px] justify-around bg-[#F0EEEE] text-[black]'>
               <div className='flex gap-[124px]'>
@@ -49,12 +49,12 @@ export default function Home() {
           </div>
           {/* end of header */}
 
-          <div id='body-1' className='ml-[10rem] mr-[10rem] flex flex-col justify-center items-center'>
-            <p className='font-[600] text-[6rem] w-[90%]'>Digitech+ a plataforma para você iniciar na <span className='text-[#AF2B36]'>Tecnologia</span></p>
-            <p className='text-[2.25rem] font-[400] w-[90%]'>
+          <div id='body-1' className='ml-[10rem] mr-[10rem] flex flex-col justify-center items-center mt-[2rem]'>
+            <p className='font-[600] text-[6rem] w-[90%] leading-[6.5rem]'>Digitech+ a plataforma para você iniciar na <span className='text-[#AF2B36]'>Tecnologia</span></p>
+            <p className='text-[2rem] font-[400] w-[90%] mt-[1rem]'>
             Comece seu futuro agora e se torne um profissional de tecnologia. Somos uma plataforma de educação gratuita, que além de oferecer cursos e trilhas, também apresentamos o dia-a-dia dentro de uma empresa com as nossas mentorias onlines.
             </p>
-            <div className='flex gap-[5rem]'>
+            <div className='flex gap-[5rem] mt-[2rem]'>
               <div>
                 <iframe className='rounded-[20px]'
                   width="560"
@@ -72,9 +72,44 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-
         </div>
+        {/* end of first part */}
+
+        <div id='second-part' className='bg-[#F0EEEE] pt-[1rem] pb-[1rem]'>
+          <div id='second-left'>
+            <p className='text-[#AF2B36] font-[500] text-[2rem] tracking-[.4rem] ml-[1rem]'>Cursos e <br/>Trilhas</p>
+          </div>
+          <div className='flex gap-[7rem] justify-center mb-[3rem]'>
+            <p className='p-2 bg-[white] rounded-[10px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)] rounded-[10px] font-[500]'>UX Design</p>
+            <p className='p-2 bg-[white] roudned-[10px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)] rounded-[10px] font-[500]'>Programação</p>
+            <p className='p-2 bg-[white] rounded-[10px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)] rounded-[10px] font-[500]'>UI Design</p>
+            <p className='p-2 bg-[white] rounded-[10px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)] rounded-[10px] font-[500]'>Anchor</p>
+          </div>
+          <div id='carrossel' className='ml-[1rem] flex gap-10 justify-around'>
+            <div className='h-[20rem] w-[20rem] bg-[gray] rounded-[20px]'>
+              <p className='pl-[1rem] pt-[1rem] pb-[1rem]'>UX Design</p>
+              <div className='ml-[1rem] h-[1px] w-[80%] bg-[black]'></div>
+            </div>
+            <div className='h-[20rem] w-[20rem] bg-[gray] rounded-[20px]'>
+              <p className='pl-[1rem] pt-[1rem] pb-[1rem]'>UX Design</p>
+              <div className='ml-[1rem] h-[1px] w-[80%] bg-[black]'></div>
+            </div>
+            <div className='h-[20rem] w-[20rem] bg-[gray] rounded-[20px]'>
+              <p className='pl-[1rem] pt-[1rem] pb-[1rem]'>UX Design</p>
+              <div className='ml-[1rem] h-[1px] w-[80%] bg-[black]'></div>
+            </div>
+            <div className='h-[20rem] w-[20rem] bg-[gray] rounded-[20px]'>
+              <p className='pl-[1rem] pt-[1rem] pb-[1rem]'>UX Design</p>
+              <div className='ml-[1rem] h-[1px] w-[80%] bg-[black]'></div>
+            </div>
+          </div>
+        </div>
+        {/* end of second part */}
+
+        <div id='third-part'>
+          
+        </div>
+
       </div>
     </main>
   )
