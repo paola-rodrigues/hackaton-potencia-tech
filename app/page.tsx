@@ -75,7 +75,7 @@ export default function Home() {
         </div>
         {/* end of first part */}
 
-        <div id='second-part' className='bg-[#F0EEEE] pt-[1rem] pb-[1rem]'>
+        <div id='second-part' className='bg-[#F0EEEE] pt-[1rem] pb-[2rem]'>
           <div id='second-left'>
             <p className='text-[#AF2B36] font-[500] text-[2rem] tracking-[.4rem] ml-[1rem]'>Cursos e <br/>Trilhas</p>
           </div>
@@ -106,9 +106,17 @@ export default function Home() {
         </div>
         {/* end of second part */}
 
-        <div id='third-part'>
-          
+        <div id='third-part' className='bg-[#FA8072] pb-[2rem] flex justify-around h-[30rem]'>
+          <div id='left-third' className='flex flex-col justify-center'> 
+            <p className='text-[3rem] font-bold'>Comece agora seu futuro</p>
+            <p className='font-[500]'>Deixe seu email que entraremos em contato para a seletiva</p>
+          </div>
+          <div id='right-third' className='flex flex-col items-center justify-center'>
+            <input type="email" className='mb-[1rem] w-[30rem] h-[3rem] rounded-[15px] pl-[.5rem]' placeholder='seu e-mail' />
+            <button className='bg-[#AF2B36] pb-1 p-5 pt-1 rounded-[10px] text-[white]'>Inscreva-se</button>
+          </div>
         </div>
+        {/* end of third part */}
 
       </div>
     </main>
